@@ -1,0 +1,26 @@
+.homeSection{
+    background-color: #1abc9c;
+    height: 100vh;
+}
+
+.header{
+    font-size: 65px;
+    font-weight: 700;
+}
+
+
+
+.afterLine{
+    width: 25%;
+
+    border: 2px solid white;
+}
+
+.beforeLine{
+    width: 25%;
+    border: 2px solid white;
+    
+}
+
+
+

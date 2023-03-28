@@ -1,0 +1,45 @@
+.header{
+    font-size: 50px;
+    font-weight: 700;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.portfolioIcon{
+    color: #2c3e50;
+}
+
+.afterLine{
+    width: 50%;
+
+    border: 2px solid #2c3e50;
+}
+
+.beforeLine{
+    width: 50%;
+    border: 2px solid #2c3e50;
+    
+}
+
+.layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(26, 188, 156, 0.9);
+    opacity: 0;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.layer:hover{
+    opacity: 1;
+}
+
+
+.layerIcon{
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+}
