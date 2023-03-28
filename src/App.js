@@ -13,6 +13,8 @@ import Contact from "./Contact/Contact"
             {path:'#about',element:<About/>},
             {path:'#portfolio',element:<Portfolio/>},
             {path:'#contact',element:<Contact/>},
+            {path:'*',element:<About/>},
+
          ]}
       ])
 
